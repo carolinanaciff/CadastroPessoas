@@ -27,7 +27,7 @@ namespace Teste
                 Console.WriteLine("|(5) SAIR                          |");
                 Console.WriteLine("|==================================|");
                 op = Convert.ToChar(Console.ReadLine());
-
+                //
                 switch(op)
                 {
                     case '1': CadastroPessoa(); break;
