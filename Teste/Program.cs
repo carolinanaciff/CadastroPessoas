@@ -134,7 +134,10 @@ namespace Teste
                         i += 1;
                     }
                 }
-                else { Console.WriteLine("RG não encontrado!"); Console.ReadLine(); break; }
+                else {
+                    Console.WriteLine("RG não encontrado!");
+                    Console.ReadLine();
+                    break; }
             }
 
             if (achou == true)
